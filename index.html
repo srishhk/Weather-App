@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="weather-info">
+            <h1 class="city-name">City Name</h1>
+            <h2 class="temperature">Temperature: <span id="tempValue">--</span>°C</h2>
+            <h3 class="description">Weather: <span id="weatherDescription">--</span></h3>
+            <img id="weatherIcon" src="" alt="Weather Icon">
+            <h4 class="humidity">Humidity: <span id="humidityValue">--</span>%</h4>
+            <h4 class="wind-speed">Wind Speed: <span id="windSpeedValue">--</span> km/h</h4>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
